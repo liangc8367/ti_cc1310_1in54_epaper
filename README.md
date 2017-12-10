@@ -11,7 +11,7 @@ TI CC1310 Launchpad: http://www.ti.com/tool/LAUNCHXL-CC1310
 Interface:
 - SPI0
 - GPIO:
-    # SPI CS: DIO15 (output)
-    # RST   : DIO01 (output)
-    # D/C   : DIO11 (output)
-    # BUSY  : DIO13 (input)
+    - SPI CS: DIO15 (output)
+    - RST   : DIO01 (output)
+    - D/C   : DIO11 (output)
+    - BUSY  : DIO13 (input)
